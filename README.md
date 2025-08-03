@@ -90,12 +90,12 @@ Streamline Pro thể hiện một **mô hình kinh doanh mạnh mẽ và bền v
 
 **Tác giả:** Max
 **Email:** baolong.indo@gmail.com
-**Ngày hoàn thành:** 08.03.2025 
+**Ngày hoàn thành:** 03.08.2025 
 
 ## 📋 Yêu cầu hệ thống
 
 - Python 3.7+
-- Google Colab
+- Google Colab & File Jupyter Notebook
 - Truy cập Google Drive
 
 ### Thư viện cần thiết:
