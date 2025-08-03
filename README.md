@@ -88,15 +88,14 @@ Streamline Pro thể hiện một **mô hình kinh doanh mạnh mẽ và bền v
 
 ## 👨‍💻 Thông tin tác giả
 
-**Tác giả:** [Tên của bạn]  
-**Email:** [email@example.com]  
-**Ngày hoàn thành:** [Ngày tháng năm]  
-**Phiên bản:** v1.0
+**Tác giả:** Max
+**Email:** baolong.indo@gmail.com
+**Ngày hoàn thành:** 08.03.2025 
 
 ## 📋 Yêu cầu hệ thống
 
 - Python 3.7+
-- Google Colab hoặc Jupyter Notebook
+- Google Colab
 - Truy cập Google Drive
 
 ### Thư viện cần thiết:
@@ -107,11 +106,5 @@ seaborn>=0.11.0
 numpy>=1.21.0
 openpyxl>=3.0.0  # Để đọc file Excel
 ```
-
-## 📜 License
-
-[Chọn license phù hợp: MIT, Apache 2.0, etc.]
-
----
 
 *Dự án này là một phần của phân tích kinh doanh cho TechStream Solutions. Mọi câu hỏi và góp ý xin liên hệ qua email hoặc tạo issue trong repository.*
