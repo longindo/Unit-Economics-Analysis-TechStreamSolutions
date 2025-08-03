@@ -80,7 +80,7 @@ Streamline Pro thể hiện một **mô hình kinh doanh mạnh mẽ và bền v
    - Đầu tư cải thiện sản phẩm và dịch vụ hỗ trợ
    - Duy trì tỷ lệ churn thấp để tối đa hóa LTV
 
-BIỂU ĐỒ PHÂN TÍCH
+**BIỂU ĐỒ PHÂN TÍCH**
 <img width="869" height="594" alt="{244790F7-A899-47A2-937A-E2D5A2857654}" src="https://github.com/user-attachments/assets/7c59fa88-413a-4b63-b9d8-9978432f60f5" />
 
 
