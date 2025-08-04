@@ -92,9 +92,9 @@ Streamline Pro demonstrates a **strong and sustainable business model**:
 
 ## 👨‍💻 Author Information
 
-**Author:** [Your Name]  
-**Email:** [email@example.com]  
-**Completion Date:** [Date]  
+**Author:** Max
+**Email:** baolong.indo@gmail.com 
+**Completion Date:** 03.08.
 
 ## 📋 System Requirements
 
