@@ -1,8 +1,8 @@
-# 📊 Phân Tích Kinh Tế Đơn Vị - Streamline Pro
+# 📊 Phân Tích hiệu quả kinh doanh - Streamline Pro
 
 ## 🎯 Tổng quan dự án
 
-Dự án này thực hiện phân tích chuyên sâu về **kinh tế đơn vị (Unit Economics)** cho sản phẩm **Streamline Pro** - một nền tảng Software as a Service (SaaS) của công ty TechStream Solutions. 
+Dự án này thực hiện phân tích chuyên sâu về **hiệu quả kinh doanh (Unit Economics)** cho sản phẩm **Streamline Pro** - một nền tảng Software as a Service (SaaS) của công ty TechStream Solutions. 
 
 **Mục tiêu:** Đánh giá khả năng sinh lời và hiệu quả của các chiến lược thu hút và giữ chân khách hàng dựa trên dữ liệu tháng 3/2023.
 
