@@ -41,20 +41,20 @@ Dữ liệu được lấy từ Google Drive và bao gồm các tệp:
 
 ## 🚀 Cách sử dụng ##
 
-Chuẩn bị dữ liệu:
+**Chuẩn bị dữ liệu:**
 
 Đảm bảo các file Excel đã được upload lên Google Drive
 Kiểm tra đường dẫn truy cập dữ liệu
 
 
-Mở Google Colab:
+**Mở Google Colab:**
 
 Truy cập Google Colab
 Upload file Unit_Economics_with_Python.ipynb
 Kết nối với Google Drive chứa dữ liệu
 
 
-Chạy phân tích:
+**Chạy phân tích:**
 
 Thực thi từng cell trong notebook theo thứ tự
 Xem kết quả trực quan hóa và báo cáo chi tiết
