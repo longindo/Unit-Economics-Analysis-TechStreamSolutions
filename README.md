@@ -1,112 +1,114 @@
-# 📊 Phân Tích hiệu quả kinh doanh - Streamline Pro
+# 📊 Unit Economics Analysis - Streamline Pro
 
-## 🎯 Tổng quan dự án
+## 🎯 Project Overview
 
-Dự án này thực hiện phân tích chuyên sâu về **hiệu quả kinh doanh** cho sản phẩm **Streamline Pro** - một nền tảng Software as a Service (SaaS) của công ty TechStream Solutions. 
+This project conducts a **business performance analysis** for **Streamline Pro** - a Software as a Service (SaaS) platform by TechStream Solutions.
 
-**Mục tiêu:** Đánh giá khả năng sinh lời và hiệu quả của các chiến lược thu hút và giữ chân khách hàng dựa trên dữ liệu tháng 3/2023.
+**Business performance analysis** focuses on calculating costs and profits from each customer, including:
+- 💰 Cost to acquire a new customer (Customer Acquisition Cost - CAC)
+- 📊 Average revenue from each customer (Average Revenue Per User - ARPU) 
+- 🔄 Total value a customer brings throughout their service usage period (Customer Lifetime Value - LTV)
 
-**Công nghệ sử dụng:**
-- **Python** trong môi trường Google Colab
-- **Pandas** để xử lý và phân tích dữ liệu
-- **Matplotlib/Seaborn** để trực quan hóa kết quả
+**Objective:** Evaluate profitability and effectiveness of marketing, sales, and retention strategies based on March 2023 data.
 
-## 📂 Nguồn dữ liệu
+**Technology Stack:**
+- **Python** in Google Colab environment
+- **Pandas** for data processing and analysis
+- **Matplotlib/Seaborn** for data visualization
 
-Dữ liệu được lấy từ Google Drive và bao gồm các tệp:
+## 📂 Data Sources
 
-| Tệp tin | Mô tả |
-|---------|-------|
-| `daily_marketing_spending.xlsx` | Chi phí marketing theo ngày và kênh |
-| `customer_lifespan_data.xlsx` | Dữ liệu vòng đời khách hàng (ngày bắt đầu, ngày rời bỏ) |
-| `receipts_history.xlsx` | Lịch sử doanh thu từ các giao dịch |
-| `Monthly expenses.xlsx` | Các chi phí hoạt động hàng tháng |
-| `Payroll.xlsx` | Chi phí lương nhân viên theo tháng và phòng ban |
+Data is sourced from Google Drive and includes the following files:
 
-## 📈 Các chỉ số kinh tế đơn vị
+| File | Description |
+|------|-------------|
+| `daily_marketing_spending.xlsx` | Daily marketing spend by channel |
+| `customer_lifespan_data.xlsx` | Customer lifecycle data (start date, churn date) |
+| `receipts_history.xlsx` | Revenue history from transactions |
+| `Monthly expenses.xlsx` | Monthly operational expenses |
+| `Payroll.xlsx` | Employee salary costs by month and department |
 
-### Kết quả phân tích tháng 3/2023:
+## 📈 Unit Economics Metrics
 
-| Chỉ số | Tên tiếng Anh | Giá trị |
-|--------|---------------|---------|
-| Chi phí thu hút khách hàng | CAC | $50 |
-| Doanh thu trung bình/người dùng | ARPU | $75 |
-| Giá vốn hàng bán | COGS | $25 |
-| Lợi nhuận gộp | Gross Margin | $50 |
-| Tỷ lệ lợi nhuận gộp | Gross Margin % | 66.67% |
-| Giá trị trọn đời khách hàng | LTV | $2,000 |
-| **Tỷ lệ LTV/CAC** | **LTV/CAC Ratio** | **40** |
+### Analysis Results for March 2023:
 
-> ⚠️ **Lưu ý:** Các giá trị trên là ví dụ minh họa. Vui lòng tham khảo file `Unit_Economics_with_Python.ipynb` để xem tính toán chi tiết và kết quả thực tế.
+| Metric | English Name | Value |
+|--------|--------------|-------|
+| Customer Acquisition Cost | CAC | $50 |
+| Average Revenue Per User | ARPU | $75 |
+| Cost of Goods Sold | COGS | $25 |
+| Gross Margin | Gross Margin | $50 |
+| Gross Margin Percentage | Gross Margin % | 66.67% |
+| Customer Lifetime Value | LTV | $2,000 |
+| **LTV/CAC Ratio** | **LTV/CAC Ratio** | **40** |
 
-## 🚀 Cách sử dụng ##
+> ⚠️ **Note:** The values above are illustrative examples. Please refer to the `Unit_Economics_with_Python.ipynb` file for detailed calculations and actual results.
 
-1. **Chuẩn bị dữ liệu:**
+## 🚀 How to Use
 
-Đảm bảo các file Excel đã được upload lên Google Drive
-Kiểm tra đường dẫn truy cập dữ liệu
+1. **Prepare Data:**
+   - Ensure Excel files are uploaded to Google Drive
+   - Verify data access paths
 
+2. **Open Google Colab:**
+   - Access [Google Colab](https://colab.research.google.com)
+   - Upload the `Unit_Economics_with_Python.ipynb` file
+   - Connect to Google Drive containing the data
 
-2. **Mở Google Colab:**
+3. **Run Analysis:**
+   - Execute each cell in the notebook sequentially
+   - View detailed visualizations and reports
 
-Truy cập Google Colab
-Upload file Unit_Economics_with_Python.ipynb
-Kết nối với Google Drive chứa dữ liệu
+## 🎯 Results and Insights
 
+### ✅ Key Findings
 
-3. **Chạy phân tích:**
+Streamline Pro demonstrates a **strong and sustainable business model**:
 
-Thực thi từng cell trong notebook theo thứ tự
-Xem kết quả trực quan hóa và báo cáo chi tiết
+- **LTV/CAC Ratio = 40** (far exceeds the ideal threshold of 3)
+- **Low customer acquisition cost** with high marketing efficiency
+- **Low churn rate** indicating good product quality
+- **66.67% gross margin** showing high profitability
 
-## 🎯 Kết quả và Insights
+### 💡 Strategic Recommendations
 
-### ✅ Kết luận chính
+1. **Optimize Marketing:**
+   - Analyze marketing channels in detail to identify lowest CAC
+   - Allocate budget to most effective channels
 
-Streamline Pro thể hiện một **mô hình kinh doanh mạnh mẽ và bền vững**:
+2. **Scale Operations:**
+   - Leverage strong financial foundation to expand operations
+   - Increase marketing budget to capture market share
 
-- **Tỷ lệ LTV/CAC = 40** (vượt xa mức lý tưởng là 3)
-- **Chi phí thu hút khách hàng thấp** với hiệu quả marketing cao
-- **Tỷ lệ churn thấp** cho thấy chất lượng sản phẩm tốt
-- **Tỷ lệ lợi nhuận gộp 66.67%** thể hiện khả năng sinh lời cao
+3. **Enhance Retention:**
+   - Invest in product improvements and customer support
+   - Maintain low churn rate to maximize LTV
 
-### 💡 Đề xuất chiến lược
+## 🔗 Important Links
 
-1. **Tối ưu hóa marketing:**
-   - Phân tích sâu các kênh marketing để xác định CAC thấp nhất
-   - Tập trung ngân sách vào kênh hiệu quả nhất
+- 📓 [Jupyter Notebook](link-to-notebook)
+- 📁 [Data Folder](link-to-data-folder)
+- 📊 [Visualization Dashboard](link-to-dashboard) *(if available)*
 
-2. **Mở rộng quy mô:**
-   - Tận dụng nền tảng tài chính vững chắc để mở rộng hoạt động
-   - Tăng ngân sách marketing để chiếm lĩnh thị phần
+## 👨‍💻 Author Information
 
-3. **Tăng cường retention:**
-   - Đầu tư cải thiện sản phẩm và dịch vụ hỗ trợ
-   - Duy trì tỷ lệ churn thấp để tối đa hóa LTV
+**Author:** [Your Name]  
+**Email:** [email@example.com]  
+**Completion Date:** [Date]  
 
-**BIỂU ĐỒ PHÂN TÍCH**
-<img width="869" height="594" alt="{244790F7-A899-47A2-937A-E2D5A2857654}" src="https://github.com/user-attachments/assets/7c59fa88-413a-4b63-b9d8-9978432f60f5" />
-
-
-## 👨‍💻 Thông tin tác giả
-
-**Tác giả:** Max
-**Email:** baolong.indo@gmail.com
-**Ngày hoàn thành:** 03.08.2025 
-
-## 📋 Yêu cầu hệ thống
+## 📋 System Requirements
 
 - Python 3.7+
-- Google Colab & File Jupyter Notebook
-- Truy cập Google Drive
+- Google Colab or Jupyter Notebook
+- Google Drive access
 
-### Thư viện cần thiết:
+### Required Libraries:
 ```python
 pandas>=1.3.0
 matplotlib>=3.4.0
 seaborn>=0.11.0
 numpy>=1.21.0
-openpyxl>=3.0.0  # Để đọc file Excel
+openpyxl>=3.0.0  # For reading Excel files
 ```
 
-*Dự án này là một phần của phân tích kinh doanh cho TechStream Solutions. Mọi câu hỏi và góp ý xin liên hệ qua email hoặc tạo issue trong repository.*
+*This project is part of business analysis for TechStream Solutions. For questions and feedback, please contact via email or create an issue in the repository.*
