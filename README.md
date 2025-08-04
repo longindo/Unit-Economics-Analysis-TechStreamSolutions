@@ -39,21 +39,25 @@ Dữ liệu được lấy từ Google Drive và bao gồm các tệp:
 
 > ⚠️ **Lưu ý:** Các giá trị trên là ví dụ minh họa. Vui lòng tham khảo file `Unit_Economics_with_Python.ipynb` để xem tính toán chi tiết và kết quả thực tế.
 
-## 🚀 Cách sử dụng
+🚀 Cách sử dụng
 
-1. **Clone repository:**
-   ```bash
-   git clone [repository-url]
-   cd streamline-unit-economics
-   ```
+Chuẩn bị dữ liệu:
 
-2. **Mở Google Colab:**
-   - Upload file `Unit_Economics_with_Python.ipynb` lên Google Colab
-   - Kết nối với Google Drive chứa dữ liệu
+Đảm bảo các file Excel đã được upload lên Google Drive
+Kiểm tra đường dẫn truy cập dữ liệu
 
-3. **Chạy phân tích:**
-   - Thực thi từng cell trong notebook
-   - Xem kết quả trực quan hóa và báo cáo
+
+Mở Google Colab:
+
+Truy cập Google Colab
+Upload file Unit_Economics_with_Python.ipynb
+Kết nối với Google Drive chứa dữ liệu
+
+
+Chạy phân tích:
+
+Thực thi từng cell trong notebook theo thứ tự
+Xem kết quả trực quan hóa và báo cáo chi tiết
 
 ## 🎯 Kết quả và Insights
 
